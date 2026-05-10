@@ -121,9 +121,9 @@ img {
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 8px;
   background:
-    linear-gradient(90deg, rgba(3, 6, 10, 0.94), transparent 44%, rgba(239, 195, 113, 0.82) 50%, transparent 57%, rgba(3, 7, 12, 0.96)),
-    #05080c;
-  box-shadow: 0 0 22px rgba(230, 180, 99, 0.18);
+    linear-gradient(180deg, rgba(2, 4, 7, 0.08), rgba(2, 4, 7, 0.34)),
+    url("./assets/mahanaim-logo-background.png") center/cover no-repeat;
+  box-shadow: 0 0 24px rgba(230, 180, 99, 0.22);
 }
 
 .nav-links {
@@ -178,13 +178,13 @@ h3 {
 }
 
 h1 {
-  max-width: 720px;
-  font-size: clamp(2.85rem, 6.4vw, 5.55rem);
+  max-width: 780px;
+  font-size: clamp(2.72rem, 5.9vw, 5.2rem);
   font-weight: 840;
 }
 
 h2 {
-  font-size: clamp(2.4rem, 5vw, 4.65rem);
+  font-size: clamp(2.25rem, 4.65vw, 4.28rem);
   font-weight: 820;
 }
 
@@ -206,6 +206,10 @@ li {
   font-size: clamp(1.12rem, 1.7vw, 1.34rem);
   font-weight: 520;
   letter-spacing: -0.02em;
+}
+
+.keep-line {
+  white-space: nowrap;
 }
 
 .hero-actions {
